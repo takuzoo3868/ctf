@@ -1,2 +1,11 @@
+## project
+.idea
+.vscode
+
 ## online
-online/**
+online/GrowthKeysCTF
+online/pwnable.kr
+online/pwnable.tw
+
+## problems
+problems/**
