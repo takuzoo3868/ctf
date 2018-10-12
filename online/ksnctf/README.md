@@ -7,3 +7,4 @@ ksnctfの解答をまとめておく
 - [Crawling-Chaos_100](03_Crawling_Chaos)
 - [Villager-A_300](04_Villager_A)
 - [Onion_70](05_Onion)
+- [Login_120](06_Login)
