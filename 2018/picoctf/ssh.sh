@@ -1,0 +1,1 @@
+ssh 'takuzo0O@2018shell2.picoctf.com'
