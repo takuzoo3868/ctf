@@ -13,3 +13,14 @@
 > ['nc <a href="https://linux.die.net/man/1/nc">tutorial</a>']
 
 ## Write-up
+`netcat` コマンドを用いて接続するだけ
+
+```bash
+$ nc 2018shell2.picoctf.com 22847
+That wasn't so hard was it?
+picoCTF{NEtcat_iS_a_NEcESSiTy_69222dcc}
+```
+
+## Flag
+
+`picoCTF{NEtcat_iS_a_NEcESSiTy_69222dcc}`

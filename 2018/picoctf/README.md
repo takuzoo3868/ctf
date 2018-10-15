@@ -4,6 +4,8 @@ This repository serves as a writeup for PicoCTF_2018
 
 NOTICE: **Each writeup is written in Japanese.**
 
+![img](./assets/img/Screenshot_2018-10-16_01-24-58.png)
+
 ## Info
 	
 > Date: 2018-09-28 to 2018-10-12  

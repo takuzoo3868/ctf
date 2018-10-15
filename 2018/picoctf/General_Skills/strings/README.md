@@ -13,3 +13,15 @@
 > ['<a href="https://linux.die.net/man/1/strings">strings</a>']
 
 ## Write-up
+ELFが配布される．問題の通り`string`するけれど，目gerpは疲れるので`grep`で絞る．
+
+```bash
+$ file strings 
+strings: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=2314611c2d1896727b70a37ce2d41c80bbf0fffe, not stripped
+$ strings strings | grep pico
+picoCTF{sTrIngS_sAVeS_Time_2fbe2166}
+```
+
+## Flag
+
+`picoCTF{sTrIngS_sAVeS_Time_2fbe2166}`
