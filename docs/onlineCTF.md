@@ -1,181 +1,81 @@
-国内サイト
-=====
+# CTF(wargame) list
+なるべく常設系を中心にCTF以外でも面白そうなチャレンジ系をまとめるつもり
 
-ksnctf
-------
+## Tag
+難易度であったり，おすすめであったり偏見でつけていくタグ．
+- <img src="https://img.shields.io/badge/recommended-yes-green.svg"> 
+- <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">
+- <img src="https://img.shields.io/badge/style-offline-lightgrey.svg"> 
+- <img src="https://img.shields.io/badge/scoring-no-lightgrey.svg"> 
+- <img src="https://img.shields.io/badge/status-degraded-red.svg"> 
+- <img src="https://img.shields.io/badge/language-hoge-orange.svg"> 
+- <img src="https://img.shields.io/badge/category-hoge-blue.svg">
 
-[http://ksnctf.sweetduet.info](http://ksnctf.sweetduet.info)
+# Domestic
 
-kusano(@kusano\_k)さんが運営するCTF
+- [ ] [ksnctf](http://ksnctf.sweetduet.info) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">  
+kusano(@kusano\_k)さんが運営するCTF．初心者のスタートアップCTF．
 
-CTFを始めるならこれと紹介されている事が多い気がする
+- [ ] [akictf](http://ctf.katsudon.org) <img src="https://img.shields.io/badge/category-web-blue.svg">  
+akiym(@akiym)さんが運営するCTF．Webに取り組む場合はこれ．
 
-akictf
-------
+- [ ] [MAGURO β](https://score.maguro.run) <img src="https://img.shields.io/badge/difficulty-normal-green.svg">  
+[サイバーディフェンス研究所](http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%D0%A1%BC%A5%C7%A5%A3%A5%D5%A5%A7%A5%F3%A5%B9%B8%A6%B5%E6%BD%EA)が運営するCTF
 
-[http://ctf.katsudon.org](http://ctf.katsudon.org)
+- [ ] [MMA CTF](https://ctf.mma.club.uec.ac.jp/) <img src="https://img.shields.io/badge/status-502-red.svg">  
+[電気通信大学](http://d.hatena.ne.jp/keyword/%C5%C5%B5%A4%C4%CC%BF%AE%C2%E7%B3%D8)の[MMA](http://d.hatena.ne.jp/keyword/MMA)が運営するCTF．Cryptoや[PPC](http://d.hatena.ne.jp/keyword/PPC)が多め．
 
-akiym(@akiym)さんが運営するCTF
-
-Web問多し
-
-ED CTF
-------
-
-[https://ctf.npca.jp](https://ctf.npca.jp)
-
-EpsilonDeltaが運営するCTF
-
-1度npca.jp[ドメイン](http://d.hatena.ne.jp/keyword/%A5%C9%A5%E1%A5%A4%A5%F3)が死んで以降復旧されていないらしい
-
-> 事前に告知していましたが、現在CTFサイトが停止中です。  
-> 以下から問題をダウンロードすることは可能です。[https://t.co/ErfRGHix0J](https://t.co/ErfRGHix0J)
-> 
-> — ED CTF (@ED\_CTF) [2015年7月17日](https://twitter.com/ED_CTF/status/622071763782905856?ref_src=twsrc%5Etfw)
-
-[MMA](http://d.hatena.ne.jp/keyword/MMA) CTF
---------------------------------------------
-
-[https://ctf.mma.club.uec.ac.jp](https://ctf.mma.club.uec.ac.jp)
-
-[電気通信大学](http://d.hatena.ne.jp/keyword/%C5%C5%B5%A4%C4%CC%BF%AE%C2%E7%B3%D8)の[MMA](http://d.hatena.ne.jp/keyword/MMA)が運営するCTF
-
-Cryptoや[PPC](http://d.hatena.ne.jp/keyword/PPC)が得意なチームなのでそのジャンルの問題は良問揃い
-
-ES CTF
-------
-
-[http://s01.elliptic-shiho.xyz/ctf/](http://s01.elliptic-shiho.xyz/ctf/)
-
-[Shiho](http://d.hatena.ne.jp/keyword/Shiho) Midorikawa(@elliptic\_[shiho](http://d.hatena.ne.jp/keyword/shiho))さんが運営するCTF
-
-問題投稿，正答者間でのWrite up共有が可能
-
-2017/1/23(月) 現在閉鎖中
-
-Flaggers
---------
-
-[http://ctf.nash-dev.com](http://ctf.nash-dev.com)
-
-nash(@nash\_fs)さんが運営するCTFの問題を出し合うコミュニティサイト
-
-MNCTF
------
-
-### MNCTF2018
-
-[http://mnctf.info/mnctf2018/](http://mnctf.info/mnctf2018/)
-
-### MNCTF2017
-
-[http://mnctf.info/mnctf2017/](http://mnctf.info/mnctf2017/)
-
-### MNCTF2016
-
-[http://mnctf.info/mnctf2016/](http://mnctf.info/mnctf2016/)
-
-### MNCTF2015
-
-[http://mnctf.info/mnctf2015/](http://mnctf.info/mnctf2015/)
-
-とっきー(@tokky\_cpp)さんから教えていただきました．  
-ありがとうございます．
-
+- [ ] [MNCTF](http://mnctf.info/) <img src="https://img.shields.io/badge/difficulty-normal-green.svg">  
 [Macnica Networks DAY 2015](http://www.macnica.net/mnd/mnd2015/index.html/)で行われたCTFが公開され常設化したもの
 
-柚子胡椒CTF
--------
-
-[http://ctf.mzyy94.com](http://ctf.mzyy94.com)
-
+- [ ] [柚子胡椒CTF](https://ctf.mzyy94.com/)  
 かの有名な柚子胡椒氏のCTF
 
-CpawCTF
--------
+- [ ] [Flaggers](http://ctf.nash-dev.com)  
+nash(@nash\_fs)さんが運営するCTFの問題を出し合うコミュニティサイト
 
-[https://ctf.cpaw.site](https://ctf.cpaw.site)
+- [ ] [CpawCTF](https://ctf.cpaw.site/) <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">  
+ぱろっく氏(@porisuteru)が主導で運営している，初心者向けCTF．
 
-プロのプロによる初心者のためのCTF  
-CTFのプロのぱろっく氏(@porisuteru)が主導で運営している  
-初心者向けCTFサイト
+- [ ] [CpawCTF2](https://ctf2.cpaw.site/) <img src="https://img.shields.io/badge/difficulty-normal-green.svg">  
+CpawCTFの続編，ステップアップに．
 
-CpawCTF2
---------
-
-[https://ctf2.cpaw.site](https://ctf2.cpaw.site)
-
-CpawCTFの続編
-
-YEHD 2015 CTF
--------------
-
-[https://2015-yehd-ctf.meiji-ncc.tech](https://2015-yehd-ctf.meiji-ncc.tech)
-
-[明治大学](http://d.hatena.ne.jp/keyword/%CC%C0%BC%A3%C2%E7%B3%D8)中野キャンパスで活動するNakano Computer Club([NCC](http://d.hatena.ne.jp/keyword/NCC))が開催した，
-
-Year End's Hack Dayの中で行われたCTFが常設化したもの
-
-MAGURO β
---------
-
-[https://score.maguro.run](https://score.maguro.run)
-
-[サイバーディフェンス研究所](http://d.hatena.ne.jp/keyword/%A5%B5%A5%A4%A5%D0%A1%BC%A5%C7%A5%A3%A5%D5%A5%A7%A5%F3%A5%B9%B8%A6%B5%E6%BD%EA)が運営するCTF
+- [ ] [YEHD 2015 CTF](https://2015-yehd-ctf.meiji-ncc.tech/)  
+[明治大学](http://d.hatena.ne.jp/keyword/%CC%C0%BC%A3%C2%E7%B3%D8)中野キャンパスで活動するNakano Computer Club([NCC](http://d.hatena.ne.jp/keyword/NCC))が開催した，  
+Year End's Hack Dayの中で行われたCTFが常設化したもの．
 
   
 
-海外サイト
-=====
+# Overseas
 
-初心者向け
------
+- [ ] [PicoCTF2018](http://picoctf.com) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">
 
-### picoctf
+- [ ] [PicoCTF2017](https://2017.picoctf.com) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">
 
-#### picoctf 2017
+- [ ] [PicoCTF2014](https://2014.picoctf.com)  <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/difficulty-beginner-green.svg">  
+ゲームモードでやると面倒なので問題を解くときは下の方にある`Switch to the basic problem viewer`を押すのがおすすめ．
 
-[https://picoctf.com](https://picoctf.com)
+- [ ] [pwnable.kr](http://pwnable.kr) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/category-pwn-blue.svg">  
+pwn好きにはたまらない．韓国製．
 
-#### picoctf 2014
+- [ ] [pwnable.tw](http://pwnable.tw) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/category-pwn-blue.svg">
 
-[https://2014.picoctf.com](https://2014.picoctf.com)
+- [ ] [id0-rsa](https://id0-rsa.pub/) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/category-crypto-blue.svg">
 
-ゲームモードでやると面倒なので問題を解くときは下の方にある
+- [ ] [Matasano Cryptopals](https://cryptopals.com/) <img src="https://img.shields.io/badge/recommended-yes-green.svg"> <img src="https://img.shields.io/badge/scoring-no-lightgrey.svg"> <img src="https://img.shields.io/badge/category-crypto-blue.svg">
 
-Switch to the basic problem viewer
-
-を押すのがおすすめ．
-
-#### picoctf 2013
-
-[https://2013.picoctf.com](https://2013.picoctf.com)
+- [ ] [OverTheWire Krypton](http://overthewire.org/wargames/krypton/) <img src="https://img.shields.io/badge/difficulty-beginner-green.svg"> <img src="https://img.shields.io/badge/scoring-no-lightgrey.svg"> <img src="https://img.shields.io/badge/category-crypto-blue.svg">
+  
+- [ ] [SmashTheStack Blowfish](http://smashthestack.org/blowfish.html) <img src="https://img.shields.io/badge/scoring-no-lightgrey.svg"> <img src="https://img.shields.io/badge/category-crypto-blue.svg">
 
 ### HackCenter
 
 [https://hackcenter.com](https://hackcenter.com)
 
-pwn専門
------
-
-### pwnable.kr
-
-[http://pwnable.kr](http://pwnable.kr)
-
-### pwnable.tw
-
-[https://pwnable.tw](https://pwnable.tw)
-
-### Exploit Exercises
+## Exploit Exercises
 
 [https://exploit-exercises.com](https://exploit-exercises.com)
 
-Crypto専門
---------
-
-### id0-[rsa](http://d.hatena.ne.jp/keyword/rsa)
-
-[https://id0-rsa.pub](https://id0-rsa.pub)
 
 Web専門
 -----
@@ -365,3 +265,8 @@ Reversing専門
 ### bugku
 
 [http://ctf.bugku.com/](http://ctf.bugku.com/)
+
+
+# Reference
+
+- [常設CTFまとめ - WTF!?](http://nanuyokakinu.hatenablog.jp/entry/2015/08/24/213158)
