@@ -8,3 +8,10 @@ ksnctfの解答をまとめておく
 - [Villager-A_300](04_Villager_A)
 - [Onion_70](05_Onion)
 - [Login_120](06_Login)
+- [Programming_110](07_Programming)
+- [Basic-is-secure?_50](08_Basic_is_secure)
+- [Digest-is-secure!_150](09_Digest_is_secure)
+- `#!_20`は自明なので省略
+
+## 頑張っているやつ
+- [Lives-out_150](27_Lives_out)

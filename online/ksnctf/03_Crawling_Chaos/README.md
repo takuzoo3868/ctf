@@ -34,7 +34,4 @@ print(flag)
 print("(」・ω・)」うー!(/・ω・)/にゃー!")
 ```
 
-#### Flag
-```
-FLAG_fqpZUCoqPb4izPJE
-```
+flagを取得できた．ニャル子さん懐かしい．

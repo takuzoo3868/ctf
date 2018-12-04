@@ -43,8 +43,3 @@ if __name__ == "__main__":
 > ROT XIII is a simple letter substitution cipher that replaces a letter with the letter XIII letters after it in the alphabet. ROT XIII is an example of the Caesar cipher, developed in ancient Rome. Flag is FLAGSwzgxBJSAMqwxxAU. Insert an underscore immediately after FLAG.
 
 解読結果は`ROT13`の説明．`FLAG`の後ろにアンダースコアの注意書き．
-
-#### Flag
-```
-FLAG_SwzgxBJSAMqwxxAU
-```

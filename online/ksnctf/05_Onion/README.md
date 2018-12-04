@@ -44,7 +44,3 @@ end
 
 よくわからないので`begin 666`でググったところ`uuencode`というbase64の前身らしい．`uuenc.dat`に暗号文を記録しておく．`uudecode`でflagを取得できた．
 
-#### Flag
-```
-FLAG_FeLgP3SiAWezWPHu
-```
