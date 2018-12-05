@@ -13,5 +13,10 @@ ksnctfの解答をまとめておく
 - [Digest-is-secure!_150](09_Digest_is_secure)
 - `#!_20`は自明なので省略
 
+- [Hypertext-Preprocessor_70](12_Hypertext_Preprocessor)
+- [Proverb_70](13_Proverb)
+- [John_60](14_John)
+
 ## 頑張っているやつ
+- [Riddle_200](11_Riddle)
 - [Lives-out_150](27_Lives_out)
