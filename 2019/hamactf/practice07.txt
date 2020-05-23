@@ -1,0 +1,9 @@
+00000000  dc e0 e1 fb a8 e1 fb a8 e9 a8 f8 e0 fa e9 fb ed  |Üאבû¨בû¨י¨ראתיûם|
+00000010  a8 ff e0 e1 eb e0 a8 e1 fb a8 ed e6 eb fa f1 f8  |¨ÿאבכא¨בû¨םזכתסר|
+00000020  fc ed ec a8 ea f1 a8 fd fb e1 e6 ef a8 d0 c7 da  |üםל¨ךס¨‎ûבזן¨׀ַÚ|
+00000030  a6 a8 cb e9 e6 a8 f1 e7 fd a8 ee e1 ef fd fa ed  |¦¨ֻיז¨סח‎¨מבן‎תם|
+00000040  a8 e1 fc a8 e7 fd fc b7 a8 c5 e9 f1 ea ed a8 fc  |¨בü¨ח‎ü·¨ֵיסךם¨ü|
+00000050  e0 ed a8 ed e6 fc fa e7 f8 f1 a8 ff e1 e4 e4 a8  |אם¨םזüתחרס¨ÿבהה¨|
+00000060  ea ed a8 e9 a8 ef e7 e7 ec a8 e0 e1 e6 fc a6 a8  |ךם¨י¨ןחחל¨אבזü¦¨|
+00000070  dc e0 ed a8 ee e4 e9 ef a8 e1 fb a8 c0 e9 e5 e9  |Üאם¨מהין¨בû¨ְיוי|
+00000080  cb dc ce f3 d0 c7 da b0 b0 f5 a6                 |ֻÜ־ף׀ַÚ°°ץ¦|

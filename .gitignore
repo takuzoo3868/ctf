@@ -1,7 +1,5 @@
 ## project
-.idea
 .vscode
-
 **/*.exe
 
 ## online
@@ -12,5 +10,16 @@ online/pwnable.tw
 ## problems
 problems/**
 
+## hidden docs
+docs/90_*
+docs/91_*
+docs/92_*
+docs/93_*
+docs/99_*
+
+## hidden workshop
+workshop/2099/*
+
 ## other
+**/seccon
 2018/picoctf/cookie.txt
